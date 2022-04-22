@@ -3,9 +3,11 @@
 ## Setting up a new device
 - Official documentation on the rotary trinkey devices for setup can be found here: [Adafruit Trinkey circuitpython](https://learn.adafruit.com/adafruit-rotary-trinkey/circuitpython)
 - Download circuit python [Circuit python download](https://learn.adafruit.com/welcome-to-circuitpython/installing-circuitpython)
+    - CircuitPython Verson: 7.2.5 as of the release of these documents
 - When first plugging in the device, you should see it show up as a drive named 'TRINKEYBOOT'
     - If you do not see TRINKEYBOOT, double tap the red reset button on the bottom of the device.
 - Copy and paste the `.uf2` circuit python download into the TRINKEYBOOT drive.
+    - You can locate this file on the Adafruit Trinkey CircuitPython documentation above
 - You should now see a drive called 'CIRCUITPY'
 
 ## Circuit python
@@ -23,5 +25,6 @@ Alternatively, you can use adafruit's circuit python editor called MU. [Adafruit
 
 - If the program uploads successfully, you will see a green light flash at the bottom of the board.
 - If your program fails to upload or errors during runtime, you will see a red light flash at the bottom of the board.
+- Mu Version: 1.1.1
 
 
