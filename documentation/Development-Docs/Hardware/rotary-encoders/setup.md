@@ -1,3 +1,10 @@
+---
+layout: page
+title: Trinkey Setup
+description: ~
+hide: true
+---
+
 # Trinkey Rotary Encoder Setup
 
 ## Setting up a new device

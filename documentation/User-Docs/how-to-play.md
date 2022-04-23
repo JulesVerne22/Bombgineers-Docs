@@ -1,3 +1,10 @@
+---
+layout: page
+title: How to Play
+description: ~
+hide: true
+---
+
 # How to play
 
 ## Start Menu

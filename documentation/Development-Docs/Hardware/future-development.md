@@ -1,3 +1,10 @@
+---
+layout: page
+title: Future Hardware Dev
+description: ~
+hide: true
+---
+
 # Future Hardware Development
 
 ## Additional Inputs

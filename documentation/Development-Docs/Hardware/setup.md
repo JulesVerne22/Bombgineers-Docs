@@ -1,3 +1,10 @@
+---
+layout: page
+title: Hardware Setup
+description: ~
+hide: true
+---
+
 # Hardware Setup
 
 Most of this is described in the user docs [here](../../User-Docs/setup.md). This will expand on some additional things.
