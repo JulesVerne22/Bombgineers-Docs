@@ -1,9 +1,9 @@
 # name of the software
-name: Jekyll Docs Theme
+name: Bombgineers Documentation
 
 project:
   version: 1.0.0
-  download_url: https://github.com/allejo/jekyll-docs-theme/releases
+  download_url: https://github.com/JulesVerne22/Bombgineers-Docs/releases
   download_text: Download
 
 license:
@@ -18,20 +18,20 @@ links:
     - title: GitHub
       icon: github
       brand: true
-      url: https://github.com/allejo/jekyll-docs-theme
+      url: https://github.com/JulesVerne22/Bombgineers-Docs
   homepage:
     - title: View on GitHub
       icon: github
       brand: true
-      url: https://github.com/allejo/jekyll-docs-theme
+      url: https://github.com/JulesVerne22/Bombgineers-Docs
   footer:
     - title: GitHub
       icon: github
       brand: true
-      url: https://github.com/allejo/jekyll-docs-theme
+      url: https://github.com/JulesVerne22/Bombgineers-Docs
     - title: Issues
       icon: bug
-      url: https://github.com/allejo/jekyll-docs-theme/issues?state=open
+      url: https://github.com/JulesVerne22/Bombgineers-Docs/issues?state=open
 
 ui:
   mode: 'auto' # 'auto', 'dark', 'light'
@@ -59,8 +59,8 @@ ui:
 
 social:
   github:
-    user: allejo
-    repo: jekyll-docs-theme
+    user: julesverne22
+    repo: Bombgineers-Docs
   twitter:
     enabled: false
     via:
