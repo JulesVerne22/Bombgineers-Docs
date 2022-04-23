@@ -2,6 +2,7 @@
 layout: page
 title: Markdown
 description: ~
+hide: true
 ---
 
 An h1 header
