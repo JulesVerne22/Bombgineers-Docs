@@ -1,84 +1,94 @@
-# name of the software
-name: Bombgineers Documentation
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
-project:
-  version: 1.0.0
-  download_url: https://github.com/JulesVerne22/Bombgineers-Docs/releases
-  download_text: Download
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
-license:
-  software: MIT License
-  software_url: https://opensource.org/licenses/MIT
+title: Bombgineers
+email: juliari114@gmail.com
+author: The Bombgineers Team
+description: > # this means to ignore newlines until "baseurl:"
+  This site/repo contains all the documentation necessary to get started with development for the Norden Bombsight Project or usage of the simulation itself.
 
-  docs: CC BY 3.0
-  docs_url: https://creativecommons.org/licenses/by/3.0/
+# Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
+baseurl: "/Bombgineers-Docs" # the subpath of your site, e.g. /blog
 
-links:
-  header:
-    - title: GitHub
-      icon: github
-      brand: true
-      url: https://github.com/JulesVerne22/Bombgineers-Docs
-  homepage:
-    - title: View on GitHub
-      icon: github
-      brand: true
-      url: https://github.com/JulesVerne22/Bombgineers-Docs
-  footer:
-    - title: GitHub
-      icon: github
-      brand: true
-      url: https://github.com/JulesVerne22/Bombgineers-Docs
-    - title: Issues
-      icon: bug
-      url: https://github.com/JulesVerne22/Bombgineers-Docs/issues?state=open
+# This is mostly for testing
+url: "https://julesverne22.github.io" # the base hostname & protocol for your site
 
-ui:
-  mode: 'auto' # 'auto', 'dark', 'light'
-  brand:
-    dark: "#00ceff"
-    light: "#a20000"
-  border_color:
-    dark: "#5f5f5f"
-    light: "#dee2e6"
-  header:
-    trianglify: true
-    dark:
-      color1: "#062a48"
-      color2: "#304e67"
-    light:
-      color1: "#080331"
-      color2: "#673051"
-  masthead:
-    color:
-      dark: "#fff"
-      light: "#fff"
-    align:
-      homepage: 'center'
-      page: 'left'
+# Social (First three Required)
+repo: "https://github.com/JulesVerne22/Bombgineers-Docs"
+github_user: "JulesVerne22"
+github_repo: "Bombgineers-Docs"
+github_branch: "main"
 
-social:
-  github:
-    user: julesverne22
-    repo: Bombgineers-Docs
-  twitter:
-    enabled: false
-    via:
-    hash:
-    account:
-  facebook:
-    enabled: false
-    profileUrl:
+# Optional
+#twitter: vsoch
+#linkedin: vsochat
+#dockerhub: vanessa
 
-analytics:
-  google: UA-123456-1
+# Should there be feedback buttons at the bottom of pages?
+feedback: true
+
+# Link to a privacy policy in footer, uncomment and define if wanted
+# privacy: https://domain.com/privacy
+
+# google-analytics: UA-XXXXXXXXXX
+# Image and (square) dimension for logo (don't start with /)
+# If commented, will use material hat theme
+# logo: "assets/img/logo/SRCC-square-red.png"
+logo_pixels: 34
+color: "#30638e"
+# color: "#8c1515" # primary color for header, buttons
 
 # Build settings
 markdown: kramdown
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - jekyll-docs-theme.gemspec
-  - LICENSE.md
-  - README.md
-  - screenshot.png
+
+# If you add tags to pages, define this variable to link them to some external search
+# If you want to link to tags locally on the site, leave this commented out
+# tag_search_endpoint: https://ask.cyberinfrastructure.org/search?q=
+tag_color: primary # danger, success, warning, primary, info, secondary
+
+accentColor: red # purple, green, etc.
+themeColor: red # purple, green, blue, orange, purple, grey
+fixedNav: 'true' # true or false
+
+permalink: /:year/:title/
+markdown: kramdown
+exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
+
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path
+
+# Defaults
+defaults:
+  - scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: page
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+  -
+    scope:
+      path: "posts"
+      type: "posts"
+    values:
+      layout: "post"

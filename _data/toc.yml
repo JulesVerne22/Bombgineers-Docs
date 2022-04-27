@@ -1,0 +1,31 @@
+- title: Developer Docs
+  url: "dev-docs"
+  links:
+    - title: "Software"
+      url: "dev-docs/software"
+      children:
+        - title: Setup
+          url: "dev-docs/software/software-setup"
+        - title: Key Unreal Features
+          url: "dev-docs/software/key-unreal-features"
+        - title: Future Development
+          url: "dev-docs/software/future-software-dev"
+    - title: "Hardware"
+      url: "dev-docs/hardware"
+      children:
+        - title: Setup
+          url: "dev-docs/hardware/hardware-setup"
+        - title: Future Development
+          url: "dev-docs/hardware/future-hardware-dev"
+    - title: "Information"
+      url: "dev-docs/information"
+      children:
+        - title: Things to Know
+          url: "dev-docs/information/things-to-know"
+- title: "User Docs"
+  url: "user-docs"
+  links:
+    - title: Setup
+      url: "user-docs/setup"
+    - title: How to Play
+      url: "user-docs/how-to-play"
