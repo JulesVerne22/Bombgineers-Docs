@@ -8,6 +8,8 @@
           url: "dev-docs/software/software-setup"
         - title: Key Unreal Features
           url: "dev-docs/software/key-unreal-features"
+        - title: Vyn's Macro Library
+          url: "dev-docs/software/vyns-macro-library"
         - title: Future Development
           url: "dev-docs/software/future-software-dev"
     - title: "Hardware"
