@@ -17,4 +17,14 @@ Of course, the bomb does not drop linearly. It will follow a logarithmic path do
 We acknowledge that for a realistic simulation, wind will play an additional part. However, for the scope of our project, we confirmed with our sponsor that we will forego those calculations and inputs. Those will be listed in documentation as additional things to implement for a later group. 
 
 ## Equations Used
+- Kinematic equations. In the image above, we used kinematic equations to theoretically solve for the actual time of fall (ATF) which resulted in: t = root(2\*Altitude/9.81).
+- Trig equations. In the image above, we used a simple arctan to solve for the drop angle. DropAngle = arctan(ActualRange/Altitude).
 
+Note: the kinematic equation was only used in the theoretical calculation to derive the formula for the DropAngle. In the actual simulation, ATF is a user input and therefore does not need to be calculated.
+
+## Accuracy Calculation
+The accuracy is calculated as the 2D distance from where the first bomb hits the ground to the center of the target.
+
+Taken from the `Map_Airbase_Demo` (our main level bp) level blueprint, the position of the target is determined here. ![Target position](./target-position.png)
+
+Taken from the `bomb_shading_v005` blueprint, the distance the bomb is from the target is determined here. ![Accuracy calculation](./distance-from-target.png)
