@@ -33,3 +33,11 @@ It was asked that we introduce randomness into the options set in the options me
 After almost completing the functional basics of the simulation, it was found that the units in Unreal Engine were not in meters, rather the units are in centimeters. So, all calculations and variables are based on that assumption. To offset this, we created a fudge factor which scales these said variables to the proper values or by any scalar for that matter. However, if set to the proper scale, the map will need to be expanded drastically which we did not have time to implement.
 
 At the time of this documentation, it was set for 10 which reduces the scale of the simulation by a factor of 10. To see what the scale should be for the simulation, change the fudge factor to 1. This is located in the sim game instance under the 'Content' folder.
+
+### Magnification
+
+When the simulation is setup for fullscale (i.e. fudge factor = 1), it is hard to see the target at 14000 ft. Therefore, it is recommended that a magnification funciton be implemented. This can be done in software or there can be an additional input encoder to complete this action.
+
+## The Bombing Book
+
+This will be re-iterated numerous times. Please take a look at the bombing book provided by the Museum of World War II Aviation in Colorado Springs. This is the source of all information leveraged in initial development. It will be confusing, but it is up to the designer to understand it for full implementation of the Norden Bombsight. Additional features for future development can be found throughout. 
