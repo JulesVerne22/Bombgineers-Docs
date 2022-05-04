@@ -6,8 +6,8 @@
       children:
         - title: Setup
           url: "dev-docs/software/software-setup"
-        - title: Key Unreal Features
-          url: "dev-docs/software/key-unreal-features"
+        - title: Key Blueprints
+          url: "dev-docs/software/blueprints"
         - title: Vyn's Macro Library
           url: "dev-docs/software/vyns-macro-library"
         - title: Future Development
@@ -19,11 +19,10 @@
           url: "dev-docs/hardware/hardware-setup"
         - title: Future Development
           url: "dev-docs/hardware/future-hardware-dev"
+        - title: Rotary Encoders (Trinkeys)
+          url: "dev-docs/hardware/rotary-encoders"
     - title: "Information"
       url: "dev-docs/information"
-      children:
-        - title: Things to Know
-          url: "dev-docs/information/things-to-know"
 - title: "User Docs"
   url: "user-docs"
   links:
