@@ -36,7 +36,7 @@ When the simulation is setup for fullscale (i.e. fudge factor = 1), it is hard t
 
 As of the creation of these documents, the user inputs are contained in an external box to the Norden Bombsight replica. 
 
-(insert image here of external box)
+![User Input Box](../../User-Docs/input-box.png)
 
 To fully finish the Norden Bombsight piece, it will be necessary to integrate the trinkey hardware into the bombsight. Please acknowledge how the bombsight looks at page 153 of the bombing book provided by the Museum of World War II Aviation in Colorado Springs to complete the aesthetics of the Norden.
 

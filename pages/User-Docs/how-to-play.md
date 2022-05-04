@@ -12,7 +12,7 @@ If you have not performed the setup yet, please do so [here](setup.md)
 
 Now that you have performed the setup, you should have a start menu displayed across 3 screens. 
 
-(insert image here)
+![Start Menu](./3-screen-start-menu.PNG)
 
 Within the start menu, there are a few options. 
 
@@ -20,10 +20,10 @@ Within the start menu, there are a few options.
     - This will start the simulation
 - Options
     - This will allow for adjustments to be made to the simulation such as plane speed, altitude, bomb-type, wind speed, etc.
-    (insert image here of options)
+![Options Menu](./options-menu.PNG)
 - Credits
     - Displays the developers
-    ( insert image here of credits)
+![Credits Menu](./credits-menu.PNG)
 - Exit
     - Exits the game
 
@@ -35,11 +35,11 @@ After messing with the options menu, you will begin the simulation. There will b
 
 Once the bombsight appears, the simulation has begun. 
 
-(insert image of bombsight widget)
+![Bombsight Widget](./bombsight-widget.PNG)
 
 Please notice that the bombsight display is on two monitors while the 3D view of the plane is on the third monitor. Also, notice that the 3D view has a drop trajectory for the bomb. 
 
-(insert image of the 3D view)
+![Side View Widget](./side-view-widget.PNG)
 
 The bombsight view will be the main view to look at.
 
@@ -47,25 +47,19 @@ The bombsight view will be the main view to look at.
 
 On the bombsight screens, there will be inputs provided such as true airspeed, bombing altitude, and bomb type. These should correlate to values within the bombing tables. 
 
-(insert image of bomb tbale inputs)
+These can be located in the upper left of the bombsight widget.
 
 ### Lining up the bombsight
 
 The first order of business is lining up the bombsight. Essentailly, this will entail adjusting the y-axis input to center the line of sight of the bombsight onto the target. Please be aware that since the other inputs have not be correctly input, the crosshairs will begin wavering off of the target.
 
-(insert image of lining up the bombsight)
-
 ### Inputs to simulation
 
-Looking through the bomb tables, values for actual time of fall and trail will be provided. With these values, twist the ATF and trail knobs until they read correctly on the bombsight view. 
-
-(insert image of where to find atf and trail values)
+Looking through the bomb tables, values for actual time of fall and trail will be provided. With these values, twist the ATF and trail knobs until they read correctly on the bombsight view (they are in the lower right). 
 
 ### Rate Adjustment
 
-From here, the game of correcting will be played. The user will switch from adjusting the rate knob to line up with the groundspeed of the plane (Note that in case of wind, groundspeed does not equal true airspeed). With adjusting the rate knob, the user will continuously recenter the crosshairs over the target. If the crosshairs do not waver from the target, then inputs should be correct. If the crosshairs do waver from the target, continue correcting the inputs.
-
-(insert image of rate location on sight)
+From here, the game of correcting will be played. The user will switch from adjusting the rate knob to line up with the groundspeed of the plane (Note that in case of wind, groundspeed does not equal true airspeed). With adjusting the rate knob, the user will continuously recenter the crosshairs over the target. If the crosshairs do not waver from the target, then inputs should be correct. If the crosshairs do waver from the target, continue correcting the inputs. The rate value can be found in the lower right of the bombsight widget.
 
 ### Dropping the bomb
 
@@ -73,13 +67,9 @@ As per the case of the norden bombsight, the bombsight had the capability of rel
 
 First, the bombsight calculates the angle where the user is aiming there crosshair. This is not too difficult as long as the True Vertical is accurate (True Vertical references what the gyroscope thinks is vertical).
 
-Additionally, based on the inputs from the user (i.e. ATF, Trail, and rate), the bombsight will calculate a necessary drop angle. 
-
-(insert image of both angles adjusting)
+Additionally, based on the inputs from the user (i.e. ATF, Trail, and rate), the bombsight will calculate a necessary drop angle. The two angles in question can be found in the lower right of the bombsight widget.
 
 With these two angles, as soon as the drop angle equals the line of sight angle, the bomb will drop automatically.
-
-(insert image of bomb dropping)
 
 ### After bomb drop
 
@@ -95,4 +85,6 @@ From the end menu, the user has two options:
     - Will return to start menu
 - Exit
     - Will exit the simulation
+
+![End Menu](./end-menu.PNG)
 

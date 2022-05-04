@@ -63,6 +63,7 @@ This blueprint contains:
 - Dropping the bomb when LoS == drop angle
 - Ensuring the bomb explodes in case it does not "collide" with anything prior to the trigger box (on the target)
 - predicting the trajectory of the bomb
+- imparting initial velocity to bomb
 ![Gameplay level blueprint](./gameplay_level_bp.png)
 
 Variables Include:
@@ -94,6 +95,8 @@ This blueprint contains:
 Variables include:
 - `success_distance`: the distance that determines if you were close to the target
 
+![End Menu BP](./end-menu-bp.PNG)
+
 #### End menu widget
 This blueprint contains:
 - Layout for accuracy/simulation time
@@ -111,6 +114,8 @@ This blueprint contains:
 - How the bomb should obey physics
 - Logic for how the bomb should collide with things
 - Calculating the accuracy (2D distance from the target object)
+
+![Bomb BP](./bomb-bp.PNG)
 
 Variables Include:
 - `ExplosionLength`: time for explosion
@@ -151,6 +156,8 @@ This blueprint contains:
 - propeller rotation on B17
 - B17 movement
 
+![B17 BP](./b17_bp.PNG)
+
 Variables Include:
 - `ConstantValue`: value used to mess with the RPMs of the propellers
 - `RPM`: the actual RPM value used for propeller rotation
@@ -175,6 +182,8 @@ This blueprint contains:
 - changing the rate from user input
 - changing the ATF from user input
 - changing the trail from user input
+
+![Bombsight Actor Blueprint](./bombsight-bp.PNG)
 
 Variables include:
 - `cameraMax`: max rotation for camera

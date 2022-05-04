@@ -44,7 +44,7 @@ It is to be noted that the bomb currently is set for 500 lbs regardless of the o
 
 This change in mass can be accomplished in two theoretic ways. One way is that when the bomb spawns that the mass get set based on the option selected. Another way is to create multiple bomb blueprint (each with their own respective weight), then spawn the one that correlates to the option selected.
 
-(insert image of bomb mass)
+![Bomb Mass](./bomb-mass.PNG)
 
 ## The Bombing Book
 

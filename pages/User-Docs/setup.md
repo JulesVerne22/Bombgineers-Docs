@@ -32,7 +32,7 @@ The interior monitor is a small 5" monitor within the bombsight replica itself. 
 
 For the final piece of the puzzle, the bombsight has an external box as of the creation of these documents (April 2022). This external box should have a USB cable falling out of it that can be plugged directly into the computer. 
 
-(insert image here for box setup with computer and monitors)
+![User Input Box](./input-box.png)
 
 ### Conclusion 
 
@@ -50,7 +50,7 @@ Once the executable is transferred, you should be able to click on the executabl
 
 While in the start menu, you have two options. First option is that you may go to the options menu and ensure the setting says fullscreen. Then drag the window for the executable across all 3 necessary display screens. This may be better if some software fixes are made to the system to allow for better separation of the 3 splitscreens. The second option consist of changing the same setting in the options menu to the windowed option. This will section the simulation into three windows which will help see where the 3 screens are for later. Then adjust the size of the screen to fill the display screens. The windowed option is recommended as of the date of this document.
 
-(insert image here of executable on 3 screens)
+![Executable on 3 Screens](./3-screen-executable.PNG)
 
 This should conclude software setup. 
 
