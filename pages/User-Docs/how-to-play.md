@@ -25,9 +25,11 @@ Within the start menu, there are a few options.
 - Exit
     - Exits the game
 
+One key note is in the options menu. Please observe that the options include a selection for fullscreen or windowed. It is recommended that the windowed option is suggested. This is susceptible to change if some development occurs to help with the multiscreen view.
+
 ## Simulation
 
-After messing with the options menu, you will begin the simulation. There will be some warm up time to get things setup up (mainly changing camera angles)
+After messing with the options menu, you will begin the simulation. There will be some warm up time to get things setup up (mainly changing camera angles).
 
 Once the bombsight appears, the simulation has begun. 
 
@@ -67,7 +69,7 @@ From here, the game of correcting will be played. The user will switch from adju
 
 As per the case of the norden bombsight, the bombsight had the capability of releasing the bomb automatically based on a few factors.
 
-First, the bombsight calculates the angle where the user is aiming there crosshair. This is not too difficult as long as the True Veritcal is accurate (True Vertical references what the gyroscope thinks is vertical).
+First, the bombsight calculates the angle where the user is aiming there crosshair. This is not too difficult as long as the True Vertical is accurate (True Vertical references what the gyroscope thinks is vertical).
 
 Additionally, based on the inputs from the user (i.e. ATF, Trail, and rate), the bombsight will calculate a necessary drop angle. 
 

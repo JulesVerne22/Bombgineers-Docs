@@ -12,7 +12,8 @@ This page is provided to help developers become familiar with the current state 
   - [Setup](Hardware/setup.md)
   - [Future Development](Hardware/future-development.md)
 - Software
+  - [Software] (Software/software.md)
   - [Setup](Software/setup.md)
   - [Future Development](Software/future-development.md)
 - Information
-  - [Things to Know](Information/things-to-know.md)
+  - [Things to Know](Information/information.md)
