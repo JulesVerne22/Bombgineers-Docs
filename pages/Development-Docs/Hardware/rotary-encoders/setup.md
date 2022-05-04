@@ -1,8 +1,7 @@
 ---
 layout: page
 title: Trinkey Setup
-description: ~
-hide: true
+permalink: /dev-docs/hardware/rotary-encoders/
 ---
 
 # Trinkey Rotary Encoder Setup
@@ -33,5 +32,11 @@ Alternatively, you can use adafruit's circuit python editor called MU. [Adafruit
 - If the program uploads successfully, you will see a green light flash at the bottom of the board.
 - If your program fails to upload or errors during runtime, you will see a red light flash at the bottom of the board.
 - Mu Version: 1.1.1
+
+## Current CircuitPython
+
+The current version of the circuit python code uploaded to the Trinkey's is located within the repo that houses this document page: 
+- repo: https://github.com/JulesVerne22/Bombgineers-Docs/
+- path: /pages/Development-Docs/Hardware/rotary-encoders
 
 

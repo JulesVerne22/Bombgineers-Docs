@@ -20,7 +20,7 @@ On top of monitor support, the computer will also require at least 8 GB of RAM a
 
 For compatability, the computer should have DirectX11 or 12 compatibility as of the date of this document (April 2022). The computer should also have USB ports.
 
-For graphics, is recommended to at least have an NVIDIA GeForce GTX 970 or better GPU. 
+For graphics, it is recommended to at least have an NVIDIA GeForce GTX 970 or better GPU. 
 
 ### Monitors
 
@@ -40,7 +40,7 @@ If you follow the above procedure, the hardware should be setup for basic functi
 
 ## Software Setup
 
-For the software setup, there should be a flash drive that the executable (as well as all the development files) is saved on. If not done so already, make sure the executable gets tranferred to the computer. 
+For the software setup, there should be a flash drive that the executable (as well as all the development files) is saved on. If not done so already, make sure the executable gets transferred to the computer. 
 
 (insert image here of flash drive contents and location of executable)
 
@@ -48,7 +48,7 @@ Once the executable is transferred, you should be able to click on the executabl
 
 (insert image here of executable)
 
-While in the start menu, please ensure that the window for the exectuable gets dragged across the 3 necessary display screens. The simulation leverages splitscreen effects to display independent views of the simulation.
+While in the start menu, you have two options. First option is that you may go to the options menu and ensure the setting says fullscreen. Then drag the window for the executable across all 3 necessary display screens. This may be better if some software fixes are made to the system to allow for better separation of the 3 splitscreens. The second option consist of changing the same setting in the options menu to the windowed option. This will section the simulation into three windows which will help see where the 3 screens are for later. Then adjust the size of the screen to fill the display screens. The windowed option is recommended as of the date of this document.
 
 (insert image here of executable on 3 screens)
 

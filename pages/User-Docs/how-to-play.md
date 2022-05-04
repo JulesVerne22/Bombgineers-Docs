@@ -6,6 +6,8 @@ permalink: /user-docs/how-to-play/
 
 # How to play
 
+If you have not performed the setup yet, please do so [here](setup.md)
+
 ## Start Menu
 
 Now that you have performed the setup, you should have a start menu displayed across 3 screens. 
@@ -25,7 +27,7 @@ Within the start menu, there are a few options.
 - Exit
     - Exits the game
 
-One key note is in the options menu. Please observe that the options include a selection for fullscreen or windowed. It is recommended that the windowed option is suggested. This is susceptible to change if some development occurs to help with the multiscreen view.
+One key note is in the options menu. Please observe that the options include a selection for fullscreen or windowed. It is recommended that the windowed option is selected. This is susceptible to change if some development occurs to help with the multiscreen view.
 
 ## Simulation
 
