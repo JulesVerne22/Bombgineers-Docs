@@ -28,6 +28,10 @@ The main reasoning behind the additional development pieces is to include the wi
 - Difference between plane heading and course
 - Cross trail and RCCT
 
+### Magnification
+
+When the simulation is setup for fullscale (i.e. fudge factor = 1), it is hard to see the target at 14000 ft. Therefore, it is recommended that a magnification funciton be implemented. This can be done in software or there can be an additional input encoder to complete this action.
+
 ## Integrate into Bombsight
 
 As of the creation of these documents, the user inputs are contained in an external box to the Norden Bombsight replica. 
