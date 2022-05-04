@@ -16,6 +16,8 @@ encoder = rotaryio.IncrementalEncoder(board.ROTA, board.ROTB)
 last_position = 0
 
 # decide which way rotary encoder is rotating, then send keyboard event accordingly
+
+
 def send_key(pos, last_pos):
     if pos > last_pos:
         keyboard_layout.write("q")

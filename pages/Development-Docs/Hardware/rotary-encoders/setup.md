@@ -39,4 +39,7 @@ The current version of the circuit python code uploaded to the Trinkey's is loca
 - repo: https://github.com/JulesVerne22/Bombgineers-Docs/
 - path: /pages/Development-Docs/Hardware/rotary-encoders
 
+Below is an image of the code to look for.
+
+![Rotary Encoder Code](./rotary-encoder-code.png)
 

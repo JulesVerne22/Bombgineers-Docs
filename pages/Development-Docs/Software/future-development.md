@@ -36,7 +36,15 @@ At the time of this documentation, it was set for 10 which reduces the scale of 
 
 ### Magnification
 
-When the simulation is setup for fullscale (i.e. fudge factor = 1), it is hard to see the target at 14000 ft. Therefore, it is recommended that a magnification funciton be implemented. This can be done in software or there can be an additional input encoder to complete this action.
+When the simulation is setup for fullscale (i.e. fudge factor = 1), it is hard to see the target at 14000 ft. Therefore, it is recommended that a magnification function be implemented. This can be done in software or there can be an additional input encoder to complete this action.
+
+## Bomb Weight
+
+It is to be noted that the bomb currently is set for 500 lbs regardless of the option selected in the options menu. In order to have the options menu take effect, you will have to go through the bomb blueprint and change the mass of the bomb in the physics option section. There should be an option for changing the mass in kg to any value you want.
+
+This change in mass can be accomplished in two theoretic ways. One way is that when the bomb spawns that the mass get set based on the option selected. Another way is to create multiple bomb blueprint (each with their own respective weight), then spawn the one that correlates to the option selected.
+
+(insert image of bomb mass)
 
 ## The Bombing Book
 
