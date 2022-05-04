@@ -32,7 +32,7 @@ It was asked that we introduce randomness into the options set in the options me
 
 After almost completing the functional basics of the simulation, it was found that the units in Unreal Engine were not in meters, rather the units are in centimeters. So, all calculations and variables are based on that assumption. To offset this, we created a fudge factor which scales these said variables to the proper values or by any scalar for that matter. However, if set to the proper scale, the map will need to be expanded drastically which we did not have time to implement.
 
-At the time of this documentation, it was set for 10 which reduces the scale of the simulation by a factor of 10. To see what the scale should be for the simulation, change the fudge factor to 1. This is located in the sim game instance under the 'Content' folder.
+At the time of this documentation, it was set for 10 which reduces the scale of the simulation by a factor of 10. To see what the scale should be for the simulation, change the fudge factor to 1. This is located in the sim game instance under the `Content` folder.
 
 ### Magnification
 
