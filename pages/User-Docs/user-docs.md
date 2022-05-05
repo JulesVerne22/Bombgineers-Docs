@@ -10,3 +10,5 @@ These documents are to help guide a user of the software through downloading and
 
 - [System Setup](setup.md)
 - [How to Play](how-to-play.md)
+
+Please note that this executable was built for Windows 10. 

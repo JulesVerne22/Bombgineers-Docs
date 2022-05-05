@@ -18,7 +18,7 @@ To begin, it is necessary to have a computer capable of 4 display outputs. This 
 
 On top of monitor support, the computer will also require at least 8 GB of RAM as well as have a quad-core processor. 
 
-For compatability, the computer should have DirectX11 or 12 compatibility as of the date of this document (April 2022). The computer should also have USB ports.
+For compatability, the computer should have DirectX11 or 12 compatibility as of the date of this document (April 2022). The computer should also have USB ports. It is necessary to run the executable on a Windows 10 Machine as the executable was built for Windows 10.
 
 For graphics, it is recommended to at least have an NVIDIA GeForce GTX 970 or better GPU. 
 
