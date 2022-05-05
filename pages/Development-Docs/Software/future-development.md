@@ -46,6 +46,14 @@ This change in mass can be accomplished in two theoretic ways. One way is that w
 
 ![Bomb Mass](./bomb-mass.PNG)
 
+## Dynamic Display
+
+Within the Options Menu widget (`/Content/MainMenuBP/OptionsMenuWidget/`), there should be a function for the fullscreen and windowed effects. It is recommended that this function be further built on. The ideology behind this is that some 1920 x 1080 computers have different scalings within the display settings as in the image below.
+
+![Different Display Settings](./different_display_settings.PNG)
+
+Ideally, this function should find the screen size which may be bigger or smaller than 1920 x 1080 for if there is a small screen or 3 screens. In either case, you want the windowed function to dynamically map to the different screen resolutions. Right now, it is hard coded for a 1920 x 1080 screen. The windowed mode, as of the creation of this document, just decreases the height of the application so that it can fit 3 screens onto a 1920 x 1080 screen. Therefore, it makes the application a 1920 x 360 sized screen. There are issues with this functionality as the scaling and resolution within windows may change computer to computer which should be taken into account when performing the windowed action. 
+
 ## The Bombing Book
 
 This will be re-iterated numerous times. Please take a look at the bombing book provided by the Museum of World War II Aviation in Colorado Springs. This is the source of all information leveraged in initial development. It will be confusing, but it is up to the designer to understand it for full implementation of the Norden Bombsight. Additional features for future development can be found throughout. 

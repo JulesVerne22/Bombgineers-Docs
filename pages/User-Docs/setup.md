@@ -52,6 +52,10 @@ While in the start menu, you have two options. First option is that you may go t
 
 ![Executable on 3 Screens](./3-screen-executable.PNG)
 
+In the case that the windowed option does not appear as above, please check your device display settings. On window, go to your Display settings and check your scaling and resolution. It should be set for 100% at 1920 x 1080 on the resolution as in the image below. You may have to restart the Norden Simulation if these are changed. 
+
+![Display Settings](./display_settings.PNG)
+
 This should conclude software setup. 
 
 
