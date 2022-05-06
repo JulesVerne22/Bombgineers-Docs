@@ -42,11 +42,11 @@ If you follow the above procedure, the hardware should be setup for basic functi
 
 For the software setup, there should be a flash drive that the executable (as well as all the development files) is saved on. If not done so already, make sure the executable gets transferred to the computer. 
 
-(insert image here of flash drive contents and location of executable)
+![Contents on Drive](./flash_drive_contents.PNG)
 
-Once the executable is transferred, you should be able to click on the executable to begin the simulation. 
+Once the executable is transferred, you should be able to click on the executable to begin the simulation. Please note that the README.txt gives additional information to what is in the flashdrive.
 
-(insert image here of executable)
+![Executable](./executable_location.PNG)
 
 While in the start menu, you have two options. First option is that you may go to the options menu and ensure the setting says fullscreen. Then drag the window for the executable across all 3 necessary display screens. This may be better if some software fixes are made to the system to allow for better separation of the 3 splitscreens. The second option consist of changing the same setting in the options menu to the windowed option. This will section the simulation into three windows which will help see where the 3 screens are for later. Then adjust the size of the screen to fill the display screens. The windowed option is recommended as of the date of this document.
 
